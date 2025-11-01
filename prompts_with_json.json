@@ -1,0 +1,168 @@
+{
+    "costEstimation": {
+        "name": "Cost Estimation",
+        "description": "Estimated cost allocation for the project.",
+        "data": [
+            {
+                "Sr_No": 1,
+                "Description": "Component Name",
+                "Local_PKR": 0,
+                "FEC": "",
+                "Total_PKR": 0,
+                "Detail_At": "Annex-I"
+            },
+            {
+                "Sr_No": "Total",
+                "Description": "Total Budget Allocation",
+                "Local_PKR": 0,
+                "FEC": "",
+                "Total_PKR": "^budget",
+                "Detail_At": ""
+            }
+        ]
+    },
+    "financialPhasing": {
+        "name": "Financial Phasing",
+        "description": "Year-wise budget allocation over three years.",
+        "data": [
+            {
+                "Sr_No": 1,
+                "Description": "Component Name",
+                "Year_1": {"Local": 0, "FEC": "", "Total": 0},
+                "Year_2": {"Local": 0, "FEC": "", "Total": 0},
+                "Year_3": {"Local": 0, "FEC": "", "Total": 0},
+                "Grand_Total": 0
+            },
+            {
+                "Sr_No": "Total",
+                "Description": "Total Yearly Budget",
+                "Year_1": {"Local": 0, "FEC": "", "Total": 0},
+                "Year_2": {"Local": 0, "FEC": "", "Total": 0},
+                "Year_3": {"Local": 0, "FEC": "", "Total": 0},
+                "Grand_Total": "^budget"
+            }
+        ]
+    },
+    "year1Planning": {
+        "name": "Year-1 Planning",
+        "description": "Planned activities for Year-1.",
+        "data": [
+            {
+                "Sr_No": 1,
+                "Item": "Activity Name",
+                "Year_1": [
+                    "Step 1 of the activity",
+                    "Step 2 of the activity",
+                    "Step 3 of the activity"
+                ]
+            }
+        ]
+    },
+    "year2Planning": {
+        "name": "Year-2 Planning",
+        "description": "Planned activities for Year-2.",
+        "data": [
+            {
+                "Sr_No": 1,
+                "Item": "Activity Name",
+                "Year_2": [
+                    "Step 1 of the activity",
+                    "Step 2 of the activity",
+                    "Step 3 of the activity"
+                ]
+            }
+        ]
+    },
+    "year3Planning": {
+        "name": "Year-3 Planning",
+        "description": "Planned activities for Year-3.",
+        "data": [
+            {
+                "Sr_No": 1,
+                "Item": "Activity Name",
+                "Year_3": [
+                    "Step 1 of the activity",
+                    "Step 2 of the activity",
+                    "Step 3 of the activity"
+                ]
+            }
+        ]
+    },
+    "finalJson": {
+        "capitalCost": [
+            {"name": "Cost Estimation", "description": "...", "data": "..."},
+            {"name": "Financial Phasing", "description": "...", "data": "..."},
+            {"name": "Year-1 Planning", "description": "...", "data": "..."},
+            {"name": "Year-2 Planning", "description": "...", "data": "..."},
+            {"name": "Year-3 Planning", "description": "...", "data": "..."}
+        ]
+    },
+    "operations":{
+        "description":[
+            "Pay and Allowances","General Utilites","..."
+        ],
+        "Amount":[
+            "32.87","6.00","..."
+        ]
+    },
+    "summary":{
+        "serial_number": 1,
+        "input": 25000000,
+        "outcome": {
+          "component_name": "Hardware Procurement",
+          "units": 500
+        },
+        "year_wise_phasing": {
+          "year_1": {
+            "amount": 12000000,
+            "division_of_total_items": 250
+          },
+          "year_2": {
+            "amount": 10000000,
+            "division_of_total_items": 200
+          },
+          "year_3": {
+            "amount": 3000000,
+            "division_of_total_items": 50
+          }
+        },
+        "outcome_metrics": {
+          "baseline_indicator": "Current Infrastructure"
+        },
+        "targeted_impact": {
+          "post_completion_targets": "Enhanced Digital Infrastructure"
+        },
+        "impact_details": {
+          "key_benefits": "Improved operational efficiency and service delivery"
+        }
+    }, 
+    "financialPlanTable": {
+        "financialPlan": [
+          {
+            "Sr_No": 1,
+            "Description": "Hardware (AI Servers, GPUs, etc.)",
+            "Year_I": 50,
+            "Year_II": 30,
+            "Year_III": 20,
+            "Total_Cost": 100
+          },
+          {
+            "Sr_No": 2,
+            "Description": "Software and AI Platform Licenses",
+            "Year_I": 20,
+            "Year_II": 15,
+            "Year_III": 15,
+            "Total_Cost": 50
+          },
+          {
+            "Sr_No": 3,
+            "Description": "AI Model Development",
+            "Year_I": 20,
+            "Year_II": 20,
+            "Year_III": 20,
+            "Total_Cost": 60
+          }
+        ]
+    }
+    
+}
